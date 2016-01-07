@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BorderedButton.swift
 //  InterfaceBuilderHelp
 //
 //  Created by Ivan Brazhnikov on 07.01.16.
@@ -8,11 +8,5 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-}
+@IBDesignable class BorderedButton : UIButton {}
 

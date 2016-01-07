@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F43C9E01C3E94C600F0B400 /* UIButton+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43C9DF1C3E94C600F0B400 /* UIButton+Utils.swift */; };
+		9F43C9E31C3E994800F0B400 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F43C9E21C3E994800F0B400 /* UIView+Utils.swift */; };
 		9FBD28051C3DDA5400B51CC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD28041C3DDA5400B51CC1 /* AppDelegate.swift */; };
 		9FBD28071C3DDA5400B51CC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD28061C3DDA5400B51CC1 /* ViewController.swift */; };
 		9FBD280A1C3DDA5400B51CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD28081C3DDA5400B51CC1 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F43C9DF1C3E94C600F0B400 /* UIButton+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Utils.swift"; sourceTree = "<group>"; };
+		9F43C9E21C3E994800F0B400 /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		9FBD28011C3DDA5400B51CC1 /* InterfaceBuilderHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterfaceBuilderHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FBD28041C3DDA5400B51CC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
 		9FBD28061C3DDA5400B51CC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F43C9DE1C3E94A000F0B400 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F43C9DF1C3E94C600F0B400 /* UIButton+Utils.swift */,
+				9F43C9E21C3E994800F0B400 /* UIView+Utils.swift */,
+			);
+			name = Extensions;
+			path = Classes/Extensions;
+			sourceTree = "<group>";
+		};
 		9FBD27F81C3DDA5400B51CC1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +70,7 @@
 		9FBD28031C3DDA5400B51CC1 /* InterfaceBuilderHelp */ = {
 			isa = PBXGroup;
 			children = (
+				9F43C9DE1C3E94A000F0B400 /* Extensions */,
 				9FBD281B1C3E812100B51CC1 /* Views */,
 				9FBD28041C3DDA5400B51CC1 /* AppDelegate.swift */,
 				9FBD28061C3DDA5400B51CC1 /* ViewController.swift */,
@@ -72,7 +87,8 @@
 			children = (
 				9FBD281D1C3E817100B51CC1 /* BorderedButton.swift */,
 			);
-			path = Views;
+			name = Views;
+			path = Classes/Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FBD28071C3DDA5400B51CC1 /* ViewController.swift in Sources */,
+				9F43C9E01C3E94C600F0B400 /* UIButton+Utils.swift in Sources */,
+				9F43C9E31C3E994800F0B400 /* UIView+Utils.swift in Sources */,
 				9FBD281E1C3E817100B51CC1 /* BorderedButton.swift in Sources */,
 				9FBD28051C3DDA5400B51CC1 /* AppDelegate.swift in Sources */,
 			);
@@ -298,6 +316,7 @@
 				9FBD28151C3DDA5400B51CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
